@@ -1,9 +1,4 @@
 theme: minima
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
