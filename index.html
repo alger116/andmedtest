@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Tool</h1>
+        <nav>
+            <ul>
+                <li><a href="#tab1">Tab 1</a></li>
+                <li><a href="#tab2">Tab 2</a></li>
+                <li><a href="#tab3">Tab 3</a></li>
+                <li><a href="#tab4">Tab 4</a></li>
+                <li><a href="#tab5">Tab 5</a></li>
+                <li><a href="#tab6">Tab 6</a></li>
+                <li><a href="#tab7">Tab 7</a></li>
+                <li><a href="#tab8">Tab 8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="left-menu">
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+        </aside>
+        <main>
+            <!-- Main content goes here -->
+        </main>
+        <aside class="right-menu">
+            <button onclick="showPopup()">Open Popup</button>
+            <div id="popup" class="popup">
+                <span class="close" onclick="hidePopup()">&times;</span>
+                <p>Popup content goes here</p>
+            </div>
+        </aside>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
